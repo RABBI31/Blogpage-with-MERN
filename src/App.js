@@ -5,6 +5,7 @@ import ArticleList from './pages/ArticleList';
 import Article from './pages/Article'
 import './App.css';
 import Navbar from './componenets/Navbar';
+import NotFound from './pages/NotFound';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route exact path = "/about" element={<About />} />
         <Route exact path = "/article-list" element={<ArticleList />} />
         <Route exact path = "/article/:id" element={<Article />} />
+        <Route path = "*" element={<NotFound />} />
       </Routes>
     
     </div>
