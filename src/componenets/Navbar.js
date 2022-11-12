@@ -122,7 +122,7 @@ const Navbar = () => {
                   </Link>
   
                   <Link
-                      to ="/articlelist"
+                      to ="/article-list"
                     className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                   >
                     ArticleList
